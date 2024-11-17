@@ -1,15 +1,17 @@
 import './App.css'
-import DaisiNav from './Components/Daisinav/DaisiNav'
+// import DaisiNav from './Components/Daisinav/DaisiNav'
 import Navber from './Components/Navber/Navber'
+import PriceOptions from './Components/PriceOptions/PriceOptions'
 
 function App() {
 
   return (
     <>
-   
+        <Navber></Navber>
       <h1 className='text-7xl bg-rose-700'>Vite + React</h1>
-      <DaisiNav></DaisiNav>
-      <Navber></Navber>
+      <PriceOptions></PriceOptions>
+      {/* <DaisiNav></DaisiNav> */}
+     
     </>
   )
 }
